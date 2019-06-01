@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
-const prefix = "." // تقدر تغيره
+const prefix = "_" // تقدر تغيره
 	const blow = new Set()
 	client.on('message', message => {
   var price = ''
@@ -12,7 +12,7 @@ const prefix = "." // تقدر تغيره
           .setDescription(`Our plans : 
                                        \`GoodSeller\` <== 10000 
                                        \`BestSeller\` <== 20000
-                                       \`PerfectSeller\` <== 60000
+                                       \`PerfectSeller\` <== 600000
                                        \`GraetSeller\` <== 70000
         If you want to buy any thing write the plan's name
         اذا اردت الشراء اكتب اسم الخطة
